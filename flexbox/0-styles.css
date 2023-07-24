@@ -188,14 +188,7 @@
     list-style: none;
   }
   
-  .row::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-  
   [class*='col-'] {
-    
     padding: 0.5rem;
   }
   
@@ -206,6 +199,8 @@
   .col-1-2 {
     width: 50%;
   }
+
+  .row {display:flex;}
   
   /* Navbar
       ============================= */
